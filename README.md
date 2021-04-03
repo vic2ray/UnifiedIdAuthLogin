@@ -10,7 +10,7 @@
 
 在输入框输入用户名后，触发请求：
 
-> http://id.fzu.edu.cn/authserver/needCaptcha.html?username=200320105&pwdEncrypt2=pwdEncryptSalt&_=1617419933902
+> http://id.fzu.edu.cn/authserver/needCaptcha.html?username=xxx&pwdEncrypt2=pwdEncryptSalt&_=1617419933902
 >
 > true
 
@@ -74,7 +74,7 @@ $("#casLoginForm").find("#changeCaptcha").bind("click", function () {
 > Request URL: http://id.fzu.edu.cn/authserver/login
 > Request Method: POST
 >
-> username: 200320105
+> username: xxx
 > password:ivhgyjNGNWoHVBhUmlrXwMns8Vg81NMhZ%2FAl8RVs%2BNomMk7gP4ETOQf8Fwn7svB8fwa7yzJvhxmQS51XFP%2FbRAYrGXToe4yuLmwrbRScWGM%3D
 > captchaResponse: aqe8
 > lt: LT-506399-2RS0W7HbXbGvLdU2oHx3n1xjeeAnj21617415016564-eM0e-cas
